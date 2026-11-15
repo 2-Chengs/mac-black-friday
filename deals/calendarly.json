@@ -1,11 +1,19 @@
 {
   "name": "Calendarly",
   "url": "https://getcalendarly.com/black-friday",
-  "platforms": ["iOS"],
+  "platforms": [
+    "iOS"
+  ],
   "category": "productivity",
-  "description": "Your calendar on the iPhone Lock Screen, drawn into the wallpaper and redrawn every morning by a Shortcuts automation.",
+  "description": "Your whole day on your iPhone Lock Screen: meetings, to-dos and countdowns drawn into a beautiful wallpaper that updates itself every morning.",
   "discount": "44% off Lifetime",
-  "prices": [{ "plan": "Lifetime Pro", "before": 24.99, "after": 13.99 }],
+  "prices": [
+    {
+      "plan": "Lifetime Pro",
+      "before": 24.99,
+      "after": 13.99
+    }
+  ],
   "terms": "One-time purchase, no subscription. Applied automatically in the app, no code. US price; local prices vary.",
   "starts": "2026-11-27",
   "ends": "2026-12-01",
