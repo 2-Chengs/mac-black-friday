@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T07:06:45.439Z",
+  "updatedAt": "2026-11-15T08:10:52.954Z",
   "categories": [
     {
       "id": "ai",
@@ -613,6 +613,27 @@
       "ends": "2026-11-30",
       "maker": "ScaleNinja",
       "makerUrl": "https://scaleninja.com"
+    },
+    {
+      "id": "deskminder",
+      "name": "DeskMinder",
+      "url": "https://deskminder.appps.od.ua/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "productivity",
+      "description": "Create quick reminders & start tasks on your desktop",
+      "discount": "43% off Lifetime",
+      "code": "BLKFR2026",
+      "prices": [
+        {
+          "plan": "Lifetime",
+          "before": 6.99,
+          "after": 3.99
+        }
+      ],
+      "starts": "2026-11-15",
+      "ends": "2026-12-01"
     },
     {
       "id": "device-mcp",
