@@ -33,6 +33,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
 | [BoltAI](https://boltai.com/pricing) | macOS, iOS | The native AI workspace: chats, agents and projects with ChatGPT, Claude, Gemini and local AI models. | **40% off** · code **BFCM2026** · Pro ~~$99~~ $59 · Lifetime ~~$399~~ $239 · until Dec 1 |
+| [TypingMind](https://www.typingmind.com/?utm_source=tonybf) | macOS | Chat UI for ChatGPT, Claude, Gemini to use with your API key. Support MCP, multi-model, Artifact, Projects, Vision, Canvas, AI agents builder, DALL-E, Plugins. | **60% off Lifetime** · code **BLACKFRIDAY2026** · until Dec 1 |
 
 ### Productivity
 
