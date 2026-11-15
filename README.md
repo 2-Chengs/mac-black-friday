@@ -207,5 +207,6 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
 | [Comic Weather](https://comicweather.app/black-friday?ref=boltai) | iOS | Weather app for iPhone that turns your forecast into a comic book page: Apple Weather forecasts painted as comic panels in four skins, with three narrators. | **67% off ($2.99 → $0.99)** · Paid app (one-time purchase) ~~$2.99~~ $0.99 · US price; local prices vary. Paid app, no in-app purchases or subscription. No code needed. $2.99 since launch. iPhone, iOS 18+ · until Nov 30 |
+| [Jubs](https://www.tryjubs.com/black-friday) | iOS | Animated holiday widgets for your iPhone Home Screen and StandBy. | **Premium $2.99 to $1.99** · Premium (one-time) ~~$2.99~~ $1.99 · Free to download. The US sale price applies to the one-time Premium upgrade in the app. No code needed · until Nov 30 |
 
 <!-- deals:end -->

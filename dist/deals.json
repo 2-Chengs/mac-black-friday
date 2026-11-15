@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T14:09:55.534Z",
+  "updatedAt": "2026-11-15T17:09:36.593Z",
   "categories": [
     {
       "id": "ai",
@@ -1138,6 +1138,28 @@
       "ends": "2026-12-03",
       "starts": "2026-11-06",
       "terms": "BF30; new licences only, one-time purchase; 2026-11-06 to 2026-12-03"
+    },
+    {
+      "id": "jubs",
+      "name": "Jubs",
+      "url": "https://www.tryjubs.com/black-friday",
+      "platforms": [
+        "iOS"
+      ],
+      "category": "other",
+      "discount": "Premium $2.99 to $1.99",
+      "description": "Animated holiday widgets for your iPhone Home Screen and StandBy.",
+      "prices": [
+        {
+          "plan": "Premium (one-time)",
+          "before": 2.99,
+          "after": 1.99
+        }
+      ],
+      "terms": "Free to download. The US sale price applies to the one-time Premium upgrade in the app. No code needed.",
+      "starts": "2026-11-27",
+      "ends": "2026-11-30",
+      "icon": "https://www.tryjubs.com/brand/icon-512.png"
     },
     {
       "id": "juicy",
