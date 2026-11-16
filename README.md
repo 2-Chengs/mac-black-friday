@@ -178,6 +178,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | [Upto](https://macupto.com/#pricing) | macOS | Keeps every app on your Mac up to date from one window, checking the App Store, Sparkle, Homebrew, TestFlight, and more. | **10% off** · code **UPTOBLACKFRIDAY** · Yearly (5 Macs) ~~$14.99~~ $13.49 · Pay once (3 Macs) ~~$39~~ $35.10 · Yearly: $13.49 for the first year, then $14.99/yr. Pay once: one-time purchase, no renewal · until Dec 1 |
 | [What Happened](https://appsbymo.app/whathappened/) | macOS | Tells you in plain words why your Mac is slow, hot or full, and fixes it with your OK. | **50% off** · code **BLACKFRIDAY** · with code BLACKFRIDAY at appsbymo.app (regular $13.99). Nov 9 - Dec 1, 2026 · until Dec 1 |
 | [Wins](https://wins.cool/) | macOS | Native macOS window manager with window snapping, Dock previews, and keyboard shortcuts. | **40% off** · code **BF_26** · Use BF_26 at checkout on Single, Pro, and X lifetime licenses and eligible update renewals. 2026-11-11 to 2026-12-01 · until Dec 1 |
+| [Wishbar](https://wishbar.app/black-friday?ref=mac-black-friday) | macOS | Type what you want in plain English and your own AI builds a live widget in your Mac's menu bar. A free ChatGPT account is enough. | **50% off** · Solo, 1 Mac ~~$39~~ $19 · Personal, 2 Macs ~~$49~~ $24 · Family, 5 Macs ~~$69~~ $34 · No code needed, applied automatically; one-time purchase, every update included; 14-day money-back guarantee; ends end of Dec 7, Pacific time · until Dec 7 |
 
 ### Privacy and Security
 

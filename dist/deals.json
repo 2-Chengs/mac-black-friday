@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:08:44.921Z",
+  "updatedAt": "2026-11-16T14:10:50.025Z",
   "categories": [
     {
       "id": "ai",
@@ -2800,6 +2800,40 @@
       "ends": "2026-12-01",
       "starts": "2026-11-11",
       "terms": "Use BF_26 at checkout on Single, Pro, and X lifetime licenses and eligible update renewals. 2026-11-11 to 2026-12-01."
+    },
+    {
+      "id": "wishbar",
+      "name": "Wishbar",
+      "url": "https://wishbar.app/black-friday?ref=mac-black-friday",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "utilities",
+      "description": "Type what you want in plain English and your own AI builds a live widget in your Mac's menu bar. A free ChatGPT account is enough.",
+      "discount": "50% off",
+      "prices": [
+        {
+          "plan": "Solo, 1 Mac",
+          "before": 39,
+          "after": 19
+        },
+        {
+          "plan": "Personal, 2 Macs",
+          "before": 49,
+          "after": 24
+        },
+        {
+          "plan": "Family, 5 Macs",
+          "before": 69,
+          "after": 34
+        }
+      ],
+      "terms": "No code needed, applied automatically; one-time purchase, every update included; 14-day money-back guarantee; ends end of Dec 7, Pacific time",
+      "starts": "2026-11-16",
+      "ends": "2026-12-07",
+      "maker": "Narendra Mandadapu",
+      "makerUrl": "https://wishbar.app",
+      "icon": "https://wishbar.app/wishbar-logo.png"
     }
   ]
 }
