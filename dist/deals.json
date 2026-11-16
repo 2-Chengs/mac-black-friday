@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:09:36.593Z",
+  "updatedAt": "2026-11-16T02:41:18.854Z",
   "categories": [
     {
       "id": "ai",
@@ -1506,6 +1506,36 @@
       "terms": "Automatically applied; one-time purchase for 2 Macs, free trial; 2026-11-07 to 2026-12-01"
     },
     {
+      "id": "openin",
+      "name": "OpenIn",
+      "url": "https://loshadki.app/openin4/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "utilities",
+      "description": "Choose the browser, profile or app each link opens in on your Mac, by rules or with a quick picker.",
+      "discount": "60% off",
+      "code": "BLACKFRIDAY26",
+      "prices": [
+        {
+          "plan": "Mac App Store",
+          "before": 11.99,
+          "after": 4.79
+        },
+        {
+          "plan": "loshadki.app",
+          "before": 11.99,
+          "after": 4.8
+        }
+      ],
+      "terms": "The code is for loshadki.app; on the Mac App Store the price is already lower, no code needed. One-time purchase.",
+      "starts": "2026-11-14",
+      "ends": "2026-12-01",
+      "maker": "Loshadki",
+      "makerUrl": "https://loshadki.app",
+      "icon": "https://loshadki.app/images/openin4.png"
+    },
+    {
       "id": "our-family-album",
       "name": "Our Family Album",
       "url": "https://apps.apple.com/us/app/our-family-album/id6790241302",
@@ -1552,6 +1582,31 @@
       "terms": "Lifetime license.",
       "starts": "2026-11-20",
       "ends": "2026-11-30"
+    },
+    {
+      "id": "paddock",
+      "name": "Paddock",
+      "url": "https://loshadki.app/paddock/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "utilities",
+      "description": "Everything about your Mac in the menu bar. Paddock is free; Pro adds a year of history, app alerts and your other Macs.",
+      "discount": "60% off",
+      "code": "BLACKFRIDAY26",
+      "prices": [
+        {
+          "plan": "Pro",
+          "before": 9.99,
+          "after": 4
+        }
+      ],
+      "terms": "The code takes 60% off Paddock Pro on loshadki.app: a one-time purchase for up to 5 Macs.",
+      "starts": "2026-11-14",
+      "ends": "2026-12-01",
+      "maker": "Loshadki",
+      "makerUrl": "https://loshadki.app",
+      "icon": "https://loshadki.app/images/paddock.png"
     },
     {
       "id": "palmscreen",
@@ -1831,6 +1886,36 @@
       "terms": "Automatically applied on the Mac App Store; one-time Lifetime unlock (monthly and yearly plans not discounted); 2026-11-20 to 2026-12-01"
     },
     {
+      "id": "renameninja",
+      "name": "RenameNinja",
+      "url": "https://loshadki.app/renameninja/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "productivity",
+      "description": "Rename hundreds of files on your Mac in one go, with fields from names and photo, video, audio and PDF metadata, your own JavaScript, and Undo.",
+      "discount": "60% off",
+      "code": "BLACKFRIDAY26",
+      "prices": [
+        {
+          "plan": "Mac App Store",
+          "before": 9.99,
+          "after": 3.99
+        },
+        {
+          "plan": "loshadki.app",
+          "before": 9.99,
+          "after": 4
+        }
+      ],
+      "terms": "The code is for loshadki.app; on the Mac App Store the price is already lower, no code needed. One-time purchase.",
+      "starts": "2026-11-14",
+      "ends": "2026-12-01",
+      "maker": "Loshadki",
+      "makerUrl": "https://loshadki.app",
+      "icon": "https://loshadki.app/images/renameninja.png"
+    },
+    {
       "id": "robomori",
       "name": "Robomori",
       "url": "https://robomori.com/pricing?ref=mac-black-friday",
@@ -1951,6 +2036,38 @@
       "terms": "with code BLACKFRIDAY at appsbymo.app ($24 $12). Nov 9 - Dec 1, 2026"
     },
     {
+      "id": "shellhistory",
+      "name": "ShellHistory",
+      "url": "https://loshadki.app/shellhistory/",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS"
+      ],
+      "category": "developer",
+      "description": "Keep, search and sync your zsh, bash and fish history on Mac, iPhone and iPad, with statistics, notebooks and Explain Command.",
+      "discount": "60% off",
+      "code": "BLACKFRIDAY26",
+      "prices": [
+        {
+          "plan": "Mac App Store",
+          "before": 13.99,
+          "after": 5.59
+        },
+        {
+          "plan": "loshadki.app",
+          "before": 13.99,
+          "after": 5.6
+        }
+      ],
+      "terms": "The code is for loshadki.app; on the Mac App Store the price is already lower, no code needed. One-time purchase.",
+      "starts": "2026-11-14",
+      "ends": "2026-12-01",
+      "maker": "Loshadki",
+      "makerUrl": "https://loshadki.app",
+      "icon": "https://loshadki.app/images/shellhistory.png"
+    },
+    {
       "id": "shiftplus",
       "name": "ShiftPlus",
       "url": "https://shiftplus.app/black-friday/",
@@ -2001,6 +2118,36 @@
       "ends": "2026-12-01",
       "starts": "2026-11-27",
       "terms": "BLACKFRIDAY26; 2026-11-27 to 2026-12-01"
+    },
+    {
+      "id": "smartinbox",
+      "name": "SmartInbox",
+      "url": "https://loshadki.app/smartinbox/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "ai",
+      "description": "Spam, phishing and cold sales out of your Inbox in Mail, decided by Apple Intelligence on your Mac or a model you choose. Requires macOS 26.",
+      "discount": "60% off",
+      "code": "BLACKFRIDAY26",
+      "prices": [
+        {
+          "plan": "Mac App Store",
+          "before": 4.99,
+          "after": 1.99
+        },
+        {
+          "plan": "loshadki.app",
+          "before": 4.99,
+          "after": 2
+        }
+      ],
+      "terms": "The code is for loshadki.app; on the Mac App Store the price is already lower, no code needed. One-time purchase.",
+      "starts": "2026-11-14",
+      "ends": "2026-12-01",
+      "maker": "Loshadki",
+      "makerUrl": "https://loshadki.app",
+      "icon": "https://loshadki.app/images/smartinbox.png"
     },
     {
       "id": "smoothcapture",
