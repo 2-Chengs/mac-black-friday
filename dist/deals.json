@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T10:55:46.299Z",
+  "updatedAt": "2026-11-16T10:56:53.380Z",
   "categories": [
     {
       "id": "ai",
@@ -1291,6 +1291,36 @@
       "maker": "Daniel Nguyen",
       "makerUrl": "https://x.com/daniel_nguyenx",
       "featured": true
+    },
+    {
+      "id": "leave-me-alone",
+      "name": "Leave Me Alone",
+      "url": "https://leavemealone.com/pricing",
+      "platforms": [
+        "Web"
+      ],
+      "category": "productivity",
+      "discount": "Up to 83% off yearly",
+      "description": "Unsubscribe from mailing lists, screen new senders, block spam and roll newsletters into one digest. Works with Gmail, Outlook, iCloud and IMAP.",
+      "terms": "Discount applies to yearly plans and lasts for as long as you stay subscribed.",
+      "prices": [
+        {
+          "plan": "1 inbox, yearly",
+          "before": 150,
+          "after": 48
+        },
+        {
+          "plan": "3 inboxes, yearly",
+          "before": 240,
+          "after": 72
+        },
+        {
+          "plan": "Unlimited inboxes, yearly",
+          "before": 360,
+          "after": 59
+        }
+      ],
+      "ends": "2026-12-07"
     },
     {
       "id": "looq",
