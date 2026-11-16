@@ -3,7 +3,7 @@ import { join } from 'node:path'
 
 export const root = new URL('..', import.meta.url).pathname
 export const YEAR = 2026
-export const PLATFORMS = ['macOS', 'iOS', 'iPadOS', 'visionOS', 'watchOS']
+export const PLATFORMS = ['macOS', 'iOS', 'iPadOS', 'visionOS', 'watchOS', 'Web'] // Web: only for hand-picked Friends of BoltAI apps
 // Black Friday deals only: nothing that starts before November or runs past mid-December.
 export const LATEST_END = `${YEAR}-12-15`
 const SHORTENERS = ['bit.ly', 'tinyurl.com', 't.co', 'goo.gl', 'ow.ly', 'buff.ly', 'rebrand.ly', 'cutt.ly', 'shorturl.at', 'is.gd']
