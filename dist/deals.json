@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T14:10:50.025Z",
+  "updatedAt": "2026-11-16T14:11:35.185Z",
   "categories": [
     {
       "id": "ai",
@@ -1251,6 +1251,35 @@
       "icon": "https://juxtacode.app/favicon/apple-touch-icon.png"
     },
     {
+      "id": "keygengo",
+      "name": "KeygenGo",
+      "url": "https://keygengo.5km.tech/black-friday?utm_source=boltai&utm_medium=deal-site&utm_campaign=bf2026",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "developer",
+      "description": "Native Mac client for Keygen.sh. Manage products, policies, licenses, users and machines for Keygen Cloud or self-hosted accounts.",
+      "discount": "50% off",
+      "prices": [
+        {
+          "plan": "Lifetime",
+          "before": 39.99,
+          "after": 19.99
+        },
+        {
+          "plan": "Annual (first year)",
+          "before": 19.99,
+          "after": 9.99
+        }
+      ],
+      "terms": "Lifetime needs no code. Annual needs offer code BF2026YEAR, once per Apple ID. Mac App Store.",
+      "starts": "2026-11-20",
+      "ends": "2026-12-06",
+      "maker": "5KM Tech",
+      "makerUrl": "https://x.com/okooo5km",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/d5/d2/0fd5d25e-ac80-1e01-d359-d721c3959dc3/KeygenGo-0-0-85-220-0-6-0-2x.png/512x512bb.png"
+    },
+    {
       "id": "keyscreen",
       "name": "KeyScreen",
       "url": "https://keyscreen.app",
@@ -1373,6 +1402,30 @@
       "maker": "Parcse",
       "makerUrl": "https://parcse.com",
       "icon": "https://parcse.com/s/looq/71ea875d62.png"
+    },
+    {
+      "id": "lottiego",
+      "name": "LottieGo",
+      "url": "https://lottiego.com/black-friday?utm_source=boltai&utm_medium=deal-site&utm_campaign=bf2026",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "design",
+      "description": "Shrinks Lottie JSON files and exports them as MP4, transparent MOV or GIF. Processed locally, free to download.",
+      "discount": "50% off Pro",
+      "prices": [
+        {
+          "plan": "Pro Lifetime",
+          "before": 4.99,
+          "after": 2.49
+        }
+      ],
+      "terms": "One-time in-app purchase on the Mac App Store, no code needed. US price; local prices vary.",
+      "starts": "2026-11-20",
+      "ends": "2026-12-06",
+      "maker": "5KM Tech",
+      "makerUrl": "https://x.com/okooo5km",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/1f/0c/c61f0c3a-e808-f492-c24e-5853fe30398d/logo-0-0-85-220-0-6-0-2x.png/512x512bb.png"
     },
     {
       "id": "mac-4-breakfast",
@@ -1607,6 +1660,36 @@
       "maker": "Loshadki",
       "makerUrl": "https://loshadki.app",
       "icon": "https://loshadki.app/images/openin4.png"
+    },
+    {
+      "id": "orchard",
+      "name": "Orchard",
+      "url": "https://orchard.5km.tech/black-friday?utm_source=boltai&utm_medium=deal-site&utm_campaign=bf2026",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "ai",
+      "description": "Gives AI assistants 52 local tools across 11 Apple apps (Mail, Calendar, Notes, Messages and more) via MCP, Agent Skills or a CLI. No open ports.",
+      "discount": "33% off",
+      "code": "BF2026",
+      "prices": [
+        {
+          "plan": "Lifetime",
+          "before": 39.99,
+          "after": 26.79
+        },
+        {
+          "plan": "Pro Annual (first year)",
+          "before": 24.99,
+          "after": 16.74
+        }
+      ],
+      "terms": "Monthly plan not included. Annual discount applies to the first year. Free plan stays free.",
+      "starts": "2026-11-20",
+      "ends": "2026-12-06",
+      "maker": "5KM Tech",
+      "makerUrl": "https://x.com/okooo5km",
+      "icon": "https://5km.tech/products/orchard/icon.png"
     },
     {
       "id": "our-family-album",
@@ -2516,6 +2599,30 @@
       "terms": "BF2026; 2026-11-16 to 2026-12-03"
     },
     {
+      "id": "timego-clock",
+      "name": "TimeGo Clock",
+      "url": "https://apps.apple.com/app/apple-store/id6448658165?pt=126247175&ct=bf2026-boltai&mt=12",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "productivity",
+      "description": "Lightweight, minimalist timer and reminder app with a countdown HUD and timer groups you combine yourself.",
+      "discount": "50% off",
+      "prices": [
+        {
+          "plan": "App",
+          "before": 3.99,
+          "after": 1.99
+        }
+      ],
+      "terms": "Paid app, price already reduced on the Mac App Store, no code needed. US price; local prices vary.",
+      "starts": "2026-11-20",
+      "ends": "2026-12-06",
+      "maker": "5KM Tech",
+      "makerUrl": "https://x.com/okooo5km",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/d7/3b/afd73bfe-e8c1-03a7-a501-84950e86edaa/TimeGo-0-0-85-220-0-0-6-0-2x.png/512x512bb.png"
+    },
+    {
       "id": "tinyshield",
       "name": "TinyShield",
       "url": "https://tinyshield.proxyman.com/",
@@ -2834,6 +2941,41 @@
       "maker": "Narendra Mandadapu",
       "makerUrl": "https://wishbar.app",
       "icon": "https://wishbar.app/wishbar-logo.png"
+    },
+    {
+      "id": "zipic",
+      "name": "Zipic",
+      "url": "https://zipic.app/black-friday?utm_source=boltai&utm_medium=deal-site&utm_campaign=bf2026",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "design",
+      "description": "Compress, convert and resize whole folders of images locally, incl. AVIF, WebP and JPEG XL, with a JSON-output CLI for scripts and AI agents.",
+      "discount": "33% off",
+      "code": "BF2026",
+      "prices": [
+        {
+          "plan": "Solo (1 device)",
+          "before": 19.99,
+          "after": 13.39
+        },
+        {
+          "plan": "Personal (2 devices)",
+          "before": 29.99,
+          "after": 20.09
+        },
+        {
+          "plan": "Team (10 devices)",
+          "before": 129.99,
+          "after": 87.09
+        }
+      ],
+      "terms": "One-time purchase, lifetime updates. The same license also works on Windows. 30-day refund.",
+      "starts": "2026-11-20",
+      "ends": "2026-12-06",
+      "maker": "5KM Tech",
+      "makerUrl": "https://x.com/okooo5km",
+      "icon": "https://5km.tech/products/zipic/icon.png"
     }
   ]
 }
