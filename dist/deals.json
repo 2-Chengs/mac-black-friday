@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T08:10:53.624Z",
+  "updatedAt": "2026-11-17T08:27:28.595Z",
   "categories": [
     {
       "id": "ai",
@@ -334,6 +334,28 @@
       "ends": "2026-11-30",
       "maker": "Book Reading Habit",
       "makerUrl": "https://bookreadinghabit.com"
+    },
+    {
+      "id": "bytemail",
+      "name": "bytemail",
+      "url": "https://bytemailapp.com/black-friday",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "productivity",
+      "discount": "30% off lifetime",
+      "description": "Fast, native email app for Mac with a unified inbox, smart search, an AI assistant and MCP support.",
+      "prices": [
+        {
+          "plan": "Lifetime",
+          "before": 99,
+          "after": 69
+        }
+      ],
+      "terms": "One payment, up to 5 devices. No code needed.",
+      "starts": "2026-11-17",
+      "ends": "2026-12-07",
+      "icon": "https://bytemailapp.com/apple-touch-icon.png"
     },
     {
       "id": "calendarly",
