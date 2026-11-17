@@ -1,12 +1,12 @@
 {
   "name": "Hapday",
-  "url": "https://buy.stripe.com/6oU4gy2Ep17Y7lQfvK5os09?prefilled_promo_code=BF2026HAPDAY",
+  "url": "https://apps.apple.com/us/app/hapday-ai-life-coach-cbt/id1498572982",
   "platforms": [
     "iOS"
   ],
   "category": "health",
   "discount": "60% off first annual year",
-  "description": "AI coaching, habit and mood tracking in one app.",
+  "description": "AI coaching/habits. Web purchase (not IAP): https://buy.stripe.com/6oU4gy2Ep17Y7lQfvK5os09?prefilled_promo_code=BF2026HAPDAY; sign in using same email.",
   "code": "BF2026HAPDAY",
   "prices": [
     {

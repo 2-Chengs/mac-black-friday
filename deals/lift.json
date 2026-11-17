@@ -1,12 +1,12 @@
 {
   "name": "Lift",
-  "url": "https://praylift.io/settings?view=subscription",
+  "url": "https://apps.apple.com/us/app/lift-daily-prayer-bible-ai/id6772963796",
   "platforms": [
     "iOS"
   ],
   "category": "other",
   "discount": "60% off first annual year",
-  "description": "A Christian prayer companion for personal prayers, Scripture and daily reflection.",
+  "description": "Prayer and Scripture. Web purchase (not IAP): https://praylift.io/settings?view=subscription; sign in using same email. Choose annual, enter code.",
   "code": "BF2026LIFT",
   "prices": [
     {
