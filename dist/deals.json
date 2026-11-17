@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:12:14.653Z",
+  "updatedAt": "2026-11-17T02:16:45.431Z",
   "categories": [
     {
       "id": "ai",
@@ -2070,6 +2070,30 @@
       "ends": "2026-12-01",
       "starts": "2026-11-20",
       "terms": "Automatically applied on the Mac App Store; one-time Lifetime unlock (monthly and yearly plans not discounted); 2026-11-20 to 2026-12-01"
+    },
+    {
+      "id": "refine",
+      "name": "Refine",
+      "url": "https://refine.sh/#pricing",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "writing",
+      "discount": "35% off",
+      "description": "Offline AI writing assistant for Mac. Grammar, autocomplete, rewrites, translation and explanations in 36 languages across your apps, using local models",
+      "prices": [
+        {
+          "plan": "1 Mac, one-time",
+          "before": 38,
+          "after": 24.7
+        }
+      ],
+      "starts": "2026-11-15",
+      "ends": "2026-11-30",
+      "terms": "Applied automatically at checkout on refine.sh. One-time license, no subscription. Grammar checks are free; full features are a 7-day free trial.",
+      "maker": "Runju Huang",
+      "makerUrl": "https://refine.sh",
+      "icon": "https://refine.sh/icon.png"
     },
     {
       "id": "renameninja",
