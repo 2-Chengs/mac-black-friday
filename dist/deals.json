@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T11:15:33.963Z",
+  "updatedAt": "2026-11-17T17:17:25.006Z",
   "categories": [
     {
       "id": "ai",
@@ -334,29 +334,6 @@
       "ends": "2026-11-30",
       "maker": "Book Reading Habit",
       "makerUrl": "https://bookreadinghabit.com"
-    },
-    {
-      "id": "breakup-ai",
-      "name": "Breakup AI",
-      "url": "https://hapday.live/black-friday-2026/#breakup",
-      "platforms": [
-        "iOS"
-      ],
-      "category": "health",
-      "discount": "60% off first annual year",
-      "description": "Chat and voice support for navigating a breakup and maintaining no contact.",
-      "code": "BF2026BREAKUP",
-      "prices": [
-        {
-          "plan": "Annual (first year)",
-          "before": 39.99,
-          "after": 15.99
-        }
-      ],
-      "starts": "2026-11-17",
-      "ends": "2026-11-30",
-      "terms": "US App Store; new/expired subscribers; first 1,000. No trial. Renews $39.99/year. Ends Nov 30, 21:00 UTC.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/1c/fc/531cfcad-4200-61a1-9228-08b05c380c26/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
     },
     {
       "id": "bytemail",
@@ -798,18 +775,28 @@
         "macOS"
       ],
       "category": "utilities",
-      "description": "Widget Dock for macOS with calendars, clocks, system stats, and everyday controls.",
-      "discount": "50% off",
+      "description": "A second widget Dock for macOS with Dock profiles, pinned apps, window management, AI agent sessions, and everyday controls.",
+      "discount": "Up to 50% off",
       "prices": [
         {
-          "plan": "Lifetime",
+          "plan": "Lifetime, 1 Mac",
           "before": 25,
           "after": 12.99
+        },
+        {
+          "plan": "Lifetime, 2 Macs",
+          "before": 40,
+          "after": 19.99
+        },
+        {
+          "plan": "Lifetime, 3 Macs",
+          "before": 60,
+          "after": 29.99
         }
       ],
       "ends": "2026-11-30",
       "starts": "2026-11-03",
-      "terms": "Automatically applied; one-time purchase with lifetime updates; prices in USD; 2026-11-03 to 2026-11-30"
+      "terms": "Automatically applied, no code; one-time purchase with lifetime updates; prices in USD; 2026-11-03 to 2026-11-30"
     },
     {
       "id": "dockview-2",
@@ -832,29 +819,6 @@
       "ends": "2026-11-30",
       "starts": "2026-11-01",
       "terms": "MACPLUSBLACKFRIDAY26; 2026-11-01 to 2026-11-30"
-    },
-    {
-      "id": "dopy",
-      "name": "Dopy",
-      "url": "https://hapday.live/black-friday-2026/#dopy",
-      "platforms": [
-        "iOS"
-      ],
-      "category": "productivity",
-      "discount": "60% off first annual year",
-      "description": "Pomodoro focus sessions, habit tracking and weekly reflection.",
-      "code": "BF2026DOPY",
-      "prices": [
-        {
-          "plan": "Annual (first year)",
-          "before": 29.99,
-          "after": 11.99
-        }
-      ],
-      "starts": "2026-11-17",
-      "ends": "2026-11-30",
-      "terms": "US App Store; new/expired subscribers; first 1,000. No trial. Renews $29.99/year. Ends Nov 30, 21:00 UTC.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/79/c9/4379c922-bd25-b5b2-2326-e43505d1b172/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg"
     },
     {
       "id": "drivedex",
@@ -1174,29 +1138,6 @@
       "terms": "Automatically applied in the app; local prices vary; 2026-11-19 to 2026-12-02"
     },
     {
-      "id": "hapday",
-      "name": "Hapday",
-      "url": "https://hapday.live/black-friday-2026/#hapday",
-      "platforms": [
-        "iOS"
-      ],
-      "category": "health",
-      "discount": "60% off first annual year",
-      "description": "AI coaching, habit and mood tracking in one app.",
-      "code": "BF2026HAPDAY",
-      "prices": [
-        {
-          "plan": "Annual (first year)",
-          "before": 39.99,
-          "after": 16
-        }
-      ],
-      "starts": "2026-11-17",
-      "ends": "2026-11-30",
-      "terms": "No active subscription; no trial; web checkout. Renews $39.99/year. Ends Nov 30, 21:00 UTC.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/88/b1/2888b147-8f82-612f-8eaf-6003d976f046/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": "iknowmydisplay",
       "name": "iKnowMyDisplay",
       "url": "https://iknowmydisplay.com",
@@ -1495,29 +1436,6 @@
       "ends": "2026-12-07"
     },
     {
-      "id": "lift",
-      "name": "Lift",
-      "url": "https://hapday.live/black-friday-2026/#lift",
-      "platforms": [
-        "iOS"
-      ],
-      "category": "other",
-      "discount": "60% off first annual year",
-      "description": "A Christian prayer companion for personal prayers, Scripture and daily reflection.",
-      "code": "BF2026LIFT",
-      "prices": [
-        {
-          "plan": "Annual (first year)",
-          "before": 39.99,
-          "after": 16
-        }
-      ],
-      "starts": "2026-11-17",
-      "ends": "2026-11-30",
-      "terms": "No active subscription; no trial; web checkout. Renews $39.99/year. Ends Nov 30, 21:00 UTC.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/5e/22/af5e22cc-c24a-4710-9457-4a97f9c39214/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": "looq",
       "name": "Looq",
       "url": "https://parcse.com/looq",
@@ -1732,6 +1650,35 @@
       ],
       "ends": "2026-12-01",
       "terms": "BF30; automatically applied at checkout; Until 2026-12-01"
+    },
+    {
+      "id": "nihongo-lessons",
+      "name": "Nihongo Lessons",
+      "url": "https://lessons.nihongo-app.com/",
+      "platforms": [
+        "iOS"
+      ],
+      "category": "education",
+      "discount": "50% off",
+      "description": "Learn Japanese vocabulary and grammar with sentence-based flashcards that build on what you already know.",
+      "starts": "2026-11-16",
+      "ends": "2026-12-02",
+      "terms": "All access pass, a lifetime in-app purchase. Automatic discount; no code needed."
+    },
+    {
+      "id": "nihongo",
+      "name": "Nihongo - Japanese Dictionary",
+      "url": "https://nihongo-app.com/",
+      "platforms": [
+        "iOS",
+        "iPadOS"
+      ],
+      "category": "education",
+      "discount": "50% off",
+      "description": "Japanese dictionary for iPhone and iPad with camera lookup and flashcards automatically created from the words you look up.",
+      "starts": "2026-11-16",
+      "ends": "2026-12-02",
+      "terms": "Nihongo Pro lifetime purchase. Automatic in-app discount; no code needed."
     },
     {
       "id": "notchet",
@@ -2786,29 +2733,6 @@
       "terms": "Discount available from Nov 27 to Nov 30. During the discount period go to Settings -> SubManager+ to purchase."
     },
     {
-      "id": "sunrise",
-      "name": "Sunrise",
-      "url": "https://hapday.live/black-friday-2026/#sunrise",
-      "platforms": [
-        "iOS"
-      ],
-      "category": "productivity",
-      "discount": "60% off first annual year",
-      "description": "An ADHD-focused AI coach and habit tracker for building daily routines.",
-      "code": "BF2026SUNRISE",
-      "prices": [
-        {
-          "plan": "Annual (first year)",
-          "before": 9.99,
-          "after": 3.99
-        }
-      ],
-      "starts": "2026-11-17",
-      "ends": "2026-11-30",
-      "terms": "US App Store; new/expired subscribers; first 1,000. No trial. Renews $9.99/year. Ends Nov 30, 21:00 UTC.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/36/4b/44364b04-23ca-3c4d-3323-554df79ae5b9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220-0.jpeg/512x512bb.jpg"
-    },
-    {
       "id": "supasidebar",
       "name": "SupaSidebar",
       "url": "https://supasidebar.com",
@@ -2923,6 +2847,20 @@
       "ends": "2026-12-03",
       "starts": "2026-11-16",
       "terms": "BF2026; 2026-11-16 to 2026-12-03"
+    },
+    {
+      "id": "transcrybe",
+      "name": "Transcrybe - Live Translation",
+      "url": "https://transcrybe.app/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "audio-video",
+      "discount": "50% off",
+      "description": "Live translated subtitles for audio from your microphone or any Mac app.",
+      "starts": "2026-11-16",
+      "ends": "2026-12-02",
+      "terms": "Lifetime access, a one-time purchase. Automatic; no code needed. Mac App Store and direct website."
     },
     {
       "id": "tree-outliner",
