@@ -140,6 +140,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | [ScreenSage Pro](https://screensage.pro/bf2026?ref=boltai-bf2026) | macOS | Native Mac screen recorder and editor for polished demos, with automatic cursor zoom and camera layouts. | **Up to 53% off** · Pro (3 Macs) ~~$149~~ $79.90 · Lifetime Updates (3 Macs) ~~$449~~ $209.90 · Pro: BFS2026P (46% off). Lifetime: BFS2026L (53% off). One-time payment · until Dec 15 |
 | [SmoothCapture](https://www.smoothcapture.app/pricing) | macOS | SmoothCapture turns screen recordings into polished app demo videos: auto zoom, a smooth cursor and real 3D iPhone, iPad and Mac models. | **50% off** · code **BLACKFRIDAY26** · Personal ~~$79~~ $39.50 · Lifetime ~~$149~~ $74.50 · Chronoid + SmoothCapture bundle ~~$199~~ $99.50 · Code applied automatically from the pricing page. One-time purchase · until Dec 2 |
 | [SmoothCut](https://smoothcut.studio/pricing) | macOS | Screen recorder that auto-zooms on your clicks, smooths the cursor and adds a camera bubble and on-device captions. Also on Windows. | **40% off** · code **BLACKFRIDAY40** · Personal ~~$79~~ $47.40 · Pro ~~$169~~ $101.40 · Applied automatically at checkout. One-time purchase, free to use with 720p exports and a small mark · until Dec 1 |
+| [Transcrybe - Live Translation](https://transcrybe.app/) | macOS | Live translated subtitles for audio from your microphone or any Mac app. | **50% off** · Lifetime access, a one-time purchase. Automatic; no code needed. Mac App Store and direct website · until Dec 2 |
 
 ### Utilities and Menu Bar
 
@@ -222,6 +223,8 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
 | [Beat Chess! Coach](https://apps.apple.com/us/app/beat-chess-coach/id6828699930) | iOS, iPadOS | Play 14 chess coaches that explain every move, and find the mistakes you keep making in your Lichess and Chess.com games, with Stockfish 19 on-device. | **40% off Full** · Full ~~$4.99~~ $2.99 · until Nov 30 |
+| [Nihongo - Japanese Dictionary](https://nihongo-app.com/) | iOS, iPadOS | Japanese dictionary for iPhone and iPad with camera lookup and flashcards automatically created from the words you look up. | **50% off** · Nihongo Pro lifetime purchase. Automatic in-app discount; no code needed · until Dec 2 |
+| [Nihongo Lessons](https://lessons.nihongo-app.com/) | iOS | Learn Japanese vocabulary and grammar with sentence-based flashcards that build on what you already know. | **50% off** · All access pass, a lifetime in-app purchase. Automatic discount; no code needed · until Dec 2 |
 
 ### Games
 

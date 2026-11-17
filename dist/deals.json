@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T14:11:10.149Z",
+  "updatedAt": "2026-11-17T14:12:01.276Z",
   "categories": [
     {
       "id": "ai",
@@ -1744,6 +1744,35 @@
       "terms": "BF30; automatically applied at checkout; Until 2026-12-01"
     },
     {
+      "id": "nihongo-lessons",
+      "name": "Nihongo Lessons",
+      "url": "https://lessons.nihongo-app.com/",
+      "platforms": [
+        "iOS"
+      ],
+      "category": "education",
+      "discount": "50% off",
+      "description": "Learn Japanese vocabulary and grammar with sentence-based flashcards that build on what you already know.",
+      "starts": "2026-11-16",
+      "ends": "2026-12-02",
+      "terms": "All access pass, a lifetime in-app purchase. Automatic discount; no code needed."
+    },
+    {
+      "id": "nihongo",
+      "name": "Nihongo - Japanese Dictionary",
+      "url": "https://nihongo-app.com/",
+      "platforms": [
+        "iOS",
+        "iPadOS"
+      ],
+      "category": "education",
+      "discount": "50% off",
+      "description": "Japanese dictionary for iPhone and iPad with camera lookup and flashcards automatically created from the words you look up.",
+      "starts": "2026-11-16",
+      "ends": "2026-12-02",
+      "terms": "Nihongo Pro lifetime purchase. Automatic in-app discount; no code needed."
+    },
+    {
       "id": "notchet",
       "name": "Notchet",
       "url": "https://aqibjaved.dev/apps/notchet/?ref=bf-gh-longseespace",
@@ -2933,6 +2962,20 @@
       "ends": "2026-12-03",
       "starts": "2026-11-16",
       "terms": "BF2026; 2026-11-16 to 2026-12-03"
+    },
+    {
+      "id": "transcrybe",
+      "name": "Transcrybe - Live Translation",
+      "url": "https://transcrybe.app/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "audio-video",
+      "discount": "50% off",
+      "description": "Live translated subtitles for audio from your microphone or any Mac app.",
+      "starts": "2026-11-16",
+      "ends": "2026-12-02",
+      "terms": "Lifetime access, a one-time purchase. Automatic; no code needed. Mac App Store and direct website."
     },
     {
       "id": "tree-outliner",
