@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T14:53:40.238Z",
+  "updatedAt": "2026-11-18T17:12:03.806Z",
   "categories": [
     {
       "id": "ai",
@@ -1711,6 +1711,28 @@
       "maker": "Hieu Nguyen",
       "makerUrl": "https://github.com/hieunc229",
       "icon": "https://mailflare.co/icon-192.png"
+    },
+    {
+      "id": "mailscope",
+      "name": "MailScope",
+      "url": "https://mailscope.app/blackfriday/",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "developer",
+      "description": "Native email debugging for Mac. Catch, preview and check development emails locally before they reach your users.",
+      "discount": "$19 USD one-time (was $29)",
+      "code": "bf2026",
+      "prices": [
+        {
+          "plan": "One-time (2 Macs)",
+          "before": 29,
+          "after": 19
+        }
+      ],
+      "terms": "Code is prefilled on the checkout link. One-time licence for up to two Macs (macOS 14+), with 12 months of updates. Dates are US Pacific.",
+      "starts": "2026-11-18",
+      "ends": "2026-11-30"
     },
     {
       "id": "margin",
