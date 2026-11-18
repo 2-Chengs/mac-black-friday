@@ -209,6 +209,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | --- | --- | --- | --- |
 | [Breakup AI](https://apps.apple.com/us/app/breakup-ai-no-contact-coach/id6749644067) | iOS | Chat and voice support for navigating a breakup and maintaining no contact. | **60% off first annual year** · code **BF2026BREAKUP** · Annual (first year) ~~$39.99~~ $15.99 · US App Store; new/expired subscribers; first 1,000. No trial. Renews $39.99/year. Ends Nov 30, 21:00 UTC · until Nov 30 |
 | [Habit Pixel](https://habitpixel.com/get) | iOS | Offline habit tracker with pixel check-ins, streak goals, reminders, and widgets for iPhone and Android. | **33% off** · Lifetime ~~$29.99~~ $19.99 · Automatically applied in the app; local prices vary; 2026-11-19 to 2026-12-02 · until Dec 2 |
+| [Hapday](https://haaaaaaappy-black-friday-2026.sleek-ghost-5356.chatgpt.site/hapday) | iOS | AI coaching, habit and mood tracking in one app. | **60% off first annual year** · code **BF2026HAPDAY** · Annual (first year) ~~$39.99~~ $16 · Web purchase only; no active subscription; no trial. Use the same email in app. Renews $39.99/year. Ends Nov 30, 21:00 UTC · until Nov 30 |
 | [Steps & Beasts](https://stepsandbeasts.app/black-friday) | iOS | Turn your daily walk into a creature-collecting adventure: hatch eggs, grow your beasts and hit your step goal. No subscription. | **33% off Pro Lifetime** · Pro Lifetime ~~$39.99~~ $26.99 · until Nov 30 |
 
 ### Finance
@@ -238,5 +239,6 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | --- | --- | --- | --- |
 | [Comic Weather](https://comicweather.app/black-friday?ref=boltai) | iOS | Weather app for iPhone that turns your forecast into a comic book page: Apple Weather forecasts painted as comic panels in four skins, with three narrators. | **67% off ($2.99 → $0.99)** · Paid app (one-time purchase) ~~$2.99~~ $0.99 · US price; local prices vary. Paid app, no in-app purchases or subscription. No code needed. $2.99 since launch. iPhone, iOS 18+ · until Nov 30 |
 | [Jubs](https://www.tryjubs.com/black-friday) | iOS | Animated holiday widgets for your iPhone Home Screen and StandBy. | **Premium $2.99 to $1.99** · Premium (one-time) ~~$2.99~~ $1.99 · Free to download. The US sale price applies to the one-time Premium upgrade in the app. No code needed · until Nov 30 |
+| [Lift](https://haaaaaaappy-black-friday-2026.sleek-ghost-5356.chatgpt.site/lift) | iOS | A Christian prayer companion for personal prayers, Scripture and daily reflection. | **60% off first annual year** · code **BF2026LIFT** · Annual (first year) ~~$39.99~~ $16 · Web purchase only; no active subscription; no trial. Use the same email in app. Renews $39.99/year. Ends Nov 30, 21:00 UTC · until Nov 30 |
 
 <!-- deals:end -->
