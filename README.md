@@ -83,6 +83,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
+| [Chalk](https://getchalk.dev/#pricing) | macOS | Whiteboard beside your terminal for Claude Code. Cross out, circle or reorder a step and Claude fixes its plan before it writes code. | **50% off** · One-time ~~$24~~ $12 · No code needed, applied automatically at checkout. 7-day free trial with no card or account. Paid in the app. macOS 13+ · until Dec 1 |
 | [ConnectWizard](https://apps.apple.com/us/app/asc-analytics-connectwizard/id6747314580) | macOS | Unlock hidden App Store Connect Analytics. | **50% off** · License ~~$100~~ $50 · Automatically applied; no code needed; 2026-11-27 to 2026-12-1 · until Dec 1 |
 | [Device MCP](https://devicemcp.ai/) | macOS, iOS, iPadOS | Mirror and control iPhone and iPad from your Mac, with MCP tools for AI agents. | **30% off all plans** · code **BF2026** · BF2026; applies to early-bird prices; 2026-11-16 to 2026-12-03 · until Dec 3 |
 | [JuxtaCode](https://juxtacode.app/black-friday/) | macOS | Compare Git branches and resolve merge conflicts with ease | **40% off** · code **BLACKFRIDAY26** · One-time purchase ~~$40~~ $24 · Direct purchase from juxtacode.app only, not the Mac App Store · until Dec 1 |
