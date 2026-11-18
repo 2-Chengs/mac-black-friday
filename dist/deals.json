@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T17:12:03.806Z",
+  "updatedAt": "2026-11-18T17:12:28.289Z",
   "categories": [
     {
       "id": "ai",
@@ -679,6 +679,30 @@
       "makerUrl": "https://dailytimetracking.com/"
     },
     {
+      "id": "data-peek",
+      "name": "data-peek",
+      "url": "https://www.datapeek.dev/pricing?utm_source=mac-black-friday",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "developer",
+      "description": "Fast, keyboard-first SQL client for PostgreSQL, MySQL, SQL Server, SQLite and ClickHouse. Also on Windows and Linux.",
+      "discount": "40% off",
+      "prices": [
+        {
+          "plan": "Pro yearly",
+          "before": 29,
+          "after": 17.4
+        }
+      ],
+      "starts": "2026-11-26",
+      "ends": "2026-12-01",
+      "terms": "Applied automatically at checkout, no code. Free for personal use; Pro is the licence for work use.",
+      "maker": "Rohith Gilla",
+      "makerUrl": "https://www.datapeek.dev/",
+      "icon": "https://raw.githubusercontent.com/Rohithgilla12/data-peek/main/apps/desktop/build/icon.png"
+    },
+    {
       "id": "deckloud",
       "name": "Deckloud",
       "url": "https://deckloud.com/black-friday/?utm_source=mac-black-friday",
@@ -1157,6 +1181,31 @@
       ],
       "ends": "2026-11-30",
       "terms": "23-30 Nov. Code: BLKFRD26"
+    },
+    {
+      "id": "float",
+      "name": "Float",
+      "url": "https://float.gilla.fun/?utm_source=mac-black-friday#pricing",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "writing",
+      "description": "Floating Markdown scratchpad on a global hotkey. Stays over full-screen apps and saves notes as plain .md files.",
+      "discount": "40% off",
+      "code": "BF26FLOAT",
+      "prices": [
+        {
+          "plan": "Pro lifetime",
+          "before": 4.99,
+          "after": 2.99
+        }
+      ],
+      "starts": "2026-11-26",
+      "ends": "2026-12-01",
+      "terms": "One-time payment, 14-day refund. Ends at the end of Dec 1, US Pacific time.",
+      "maker": "Rohith Gilla",
+      "makerUrl": "https://float.gilla.fun/",
+      "icon": "https://float.gilla.fun/icon.png"
     },
     {
       "id": "forma",
