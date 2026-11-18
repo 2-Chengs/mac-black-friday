@@ -59,19 +59,21 @@ async function checkPage(deal) {
 
 const MAX_DEALS = 5
 
-/** How many deal files this GitHub account already has in merged pull requests. */
+/** How many deal files this GitHub account has on the list now: files it added in merged pull requests that are
+ *  still in deals/ on main, each counted once (a file re-added or later removed doesn't count twice). */
 async function mergedDealCount(author) {
   const query = encodeURIComponent(`repo:${GITHUB_REPOSITORY} is:pr is:merged author:${author}`)
   const response = await fetch(`https://api.github.com/search/issues?q=${query}&per_page=50`, {
     headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: 'application/vnd.github+json' },
   })
   if (!response.ok) return 0
-  let count = 0
+  const onMain = new Set(readDeals().map((d) => 'deals/' + d.file))
+  const added = new Set()
   for (const pr of (await response.json()).items || []) {
     const prFiles = await gh(`/pulls/${pr.number}/files?per_page=100`)
-    count += (prFiles || []).filter((f) => /^deals\/[^/]+\.json$/.test(f.filename) && f.status === 'added').length
+    for (const f of prFiles || []) if (/^deals\/[^/]+\.json$/.test(f.filename) && f.status === 'added') added.add(f.filename)
   }
-  return count
+  return [...added].filter((file) => onMain.has(file)).length
 }
 
 /** Checks one deal file. Returns its name, its problems, and notes about its page; a `warn` note means the deal
