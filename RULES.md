@@ -4,7 +4,7 @@ A personal, curated list. Deals that don't fit are closed.
 
 - Apps for Mac, iPhone, iPad, Apple Vision Pro or Apple Watch only. Finished and maintained.
 - A real Black Friday deal on your own app, with the price and the dates. Starting in November, ending between Nov 20 and Dec 15.
-- The regular price has been the real price for at least 30 days before the deal starts.
+- The regular price has been the real price for at least 20 days before the deal starts.
 - Newer price? Your deal can go in Launch Deals: category `launch`, with the launch price as the headline (like "Launch price $9.99").
 - One entry per app. Up to five apps per developer.
 - Up to five deal files per pull request, nothing else in the diff.
