@@ -199,7 +199,7 @@ async function main() {
     '',
     passes
       ? ready
-        ? 'A maintainer will merge it soon.'
+        ? 'A maintainer will check it soon.'
         : "If your page shows the deal only after it starts or blocks bots, there's nothing to fix."
       : `Push a fix to this branch and I'll check again. Here are the [rules](https://github.com/${GITHUB_REPOSITORY}/blob/main/RULES.md).`
   )
