@@ -232,6 +232,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
 | [SubManager](https://submanager.app) | macOS, iOS, visionOS | Track subscriptions across iOS, macOS and visionOS and never miss a renewal. | **50% off** · Discount available from Nov 27 to Nov 30. During the discount period go to Settings -> SubManager+ to purchase · until Nov 30 |
+| [WallyLedger](https://apps.apple.com/app/id6761266092) | macOS, iOS, iPadOS | Private budgeting for Mac, iPhone and iPad with no account: syncs through your own iCloud. Multi-currency, monthly budgets, credit card statements. | **Lifetime ~~$99.99~~ $59.99** · Lifetime only; Monthly and Annual not on sale; free plan stays free. In-app, no code. US price, local prices vary · until Dec 1 |
 | [Wealthfolio Connect](https://wealthfolio.app/connect/black-friday/) | macOS, iOS | Encrypted device sync and backups for Wealthfolio; Essentials and Duo add automatic imports from supported brokerages | **35% off first year (annual)** · code **BLACKFRIDAY35** · Nov 8–30, 2026. Annual Basic, Essentials and Duo; first year only; renewals at regular price. Ends Nov 30 at 11:59 p.m. Eastern · until Nov 30 |
 
 ### Education
