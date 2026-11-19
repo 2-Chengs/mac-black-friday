@@ -35,6 +35,36 @@ async function gh(path, options = {}) {
 
 /** What the deal's own page shows, as far as a plain fetch can tell. Many pages render with JavaScript, so a miss is
  *  a note for the reviewer, not a failure. */
+/** An App Store offer-code link (apps.apple.com/redeem?ctx=offercodes&id=…&code=…) opens the App Store's redeem
+ *  sheet, which shows the offer and the standard price. Returns the app id and code, or null for any other link. */
+function offerCodeLink(url) {
+  try {
+    const u = new URL(url)
+    if (u.hostname !== 'apps.apple.com' || u.pathname.replace(/\/$/, '') !== '/redeem') return null
+    if (u.searchParams.get('ctx') !== 'offercodes') return null
+    const id = u.searchParams.get('id')
+    return /^\d+$/.test(id || '') ? { id, code: u.searchParams.get('code') || '' } : null
+  } catch {
+    return null
+  }
+}
+
+/** Checks an offer-code link: the app id must be a real App Store app and the code must match the deal's code. */
+async function checkOfferCodeLink(deal, link) {
+  if (!link.code) return { problem: 'the App Store offer-code link has no `code=` in it' }
+  if (deal.code && deal.code.toLowerCase() !== link.code.toLowerCase()) {
+    return { problem: `the code in the link (\`${link.code}\`) doesn't match \`code\` (\`${deal.code}\`)` }
+  }
+  try {
+    const response = await fetch(`https://itunes.apple.com/lookup?id=${link.id}`, { signal: AbortSignal.timeout(15000) })
+    const app = response.ok ? (await response.json()).results?.[0] : null
+    if (!app) return { warn: `couldn't find App Store app ${link.id}` }
+    return { app: app.trackName }
+  } catch {
+    return { warn: `couldn't look up App Store app ${link.id}` }
+  }
+}
+
 async function checkPage(deal) {
   try {
     const response = await fetch(deal.url, {
@@ -90,13 +120,23 @@ async function reviewDeal(file, existing, categoryIds) {
   }
   for (const error of validateDeal(file, deal, categoryIds)) problems.push(error)
   try {
-    const key = (url) => new URL(url).hostname.replace(/^www\./, '') + new URL(url).pathname.replace(/\/$/, '')
+    const key = (url) => {
+      const link = offerCodeLink(url)
+      if (link) return `apps.apple.com/app/${link.id}`
+      return new URL(url).hostname.replace(/^www\./, '') + new URL(url).pathname.replace(/\/$/, '')
+    }
     const same = existing.find((d) => d.file !== file && key(d.deal.url) === key(deal.url))
     if (same) problems.push(`already listed in \`deals/${same.file}\` (one entry per app)`)
   } catch {}
   if (deal.featured) problems.push('`featured` is set by the maintainers, please remove it')
 
-  if (deal.url) {
+  const link = deal.url ? offerCodeLink(deal.url) : null
+  if (link) {
+    const result = await checkOfferCodeLink(deal, link)
+    if (result.problem) problems.push(result.problem)
+    else if (result.warn) notes.push({ text: result.warn, warn: true })
+    else notes.push({ text: `App Store offer-code link for ${result.app}; the redeem sheet shows the offer` })
+  } else if (deal.url) {
     const page = await checkPage(deal)
     const startsLater = deal.starts && deal.starts > new Date().toISOString().slice(0, 10)
     if (!page.reachable) notes.push({ text: `couldn't open the page (${page.note})`, warn: true })
