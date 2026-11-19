@@ -2,7 +2,7 @@
 
 Hand-picked Black Friday deals on Mac, iPhone and iPad apps from indie developers.
 
-- ✅ Every deal is checked by me, [Daniel Nguyen](https://x.com/daniel_nguyenx). Real discounts on finished apps only.
+- ✅ A personal, curated list: I check every deal myself, [Daniel Nguyen](https://x.com/daniel_nguyenx), and pick only polished, established apps. No half-finished, vibe-coded or AI-slop apps.
 - 🍎 Mac and iOS apps only. I build native Mac and iOS apps myself, so I can judge an app's quality.
 - 📣 My favorite indie deals get shared with my 77k followers on X.
 
@@ -120,6 +120,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | --- | --- | --- | --- |
 | [KTool](https://ktool.io/pricing#lifetime) | macOS, iOS | Send articles, newsletters and RSS feeds to your Kindle, from your browser or your phone. | **Lifetime ~~$179~~ $149** · Everything in Platinum, pay once · until Dec 1 |
 | [Book Reading Habit](https://bookreadinghabit.com/blog/black-friday-2026-lifetime-pro) | iOS, iPadOS, macOS | Reading tracker for iPhone, iPad and Mac. Time your reading sessions, keep a streak going and save notes on paper books, ebooks or audiobooks. | **Lifetime Pro ~~$44.99~~ $19.99** · One-time purchase, no subscription. No code needed, the lower price is already in the app. US price, other countries get 50 to 60% off · until Nov 30 |
+| [Sponge](https://sponge.computer/pricing) | macOS, iOS | Local-first read-later library: save articles and PDFs, highlight them and export Markdown. Plus syncs your library to the web and iPhone. | **50% off the first year** · code **SPONGEBF26** · Sponge Plus, monthly ~~$5~~ $2.50 · Buy Sponge Plus on the web with the code at checkout. New subscribers; $2.50 a month for your first 12 months · until Dec 2 |
 
 ### Design and Photo
 
@@ -134,6 +135,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | [Photo Booth App](https://apps.apple.com/us/app/photo-booth-app-for-events/id6758273611) | iOS, iPadOS, macOS, visionOS, watchOS | Turns your iPhone or iPad into an event photo booth with custom templates, guest photo sharing and AirPrint printing. | **50% off yearly** · Yearly Premium ~~$99.99~~ $49.99 · No code needed; the lower yearly price applies automatically in the app during the sale · until Dec 1 |
 | [Sip](https://sipapp.io/pricing/) | macOS | Modern color picker for Mac that brings ease to color organization and team collaboration. | **50% off** · code **BLACKFRIDAY26** · BLACKFRIDAY26; 2026-11-27 to 2026-12-01 · until Dec 1 |
 | [SnapTidy: Photo Swipe & Delete](https://snaptidyapp.github.io/snaptidy-site/blackfriday/) | iOS, iPadOS | Photo cleaner for iPhone and iPad: swipe a few photos at a time to keep or mark; nothing is deleted until you confirm. No account, no ads. | **Lifetime 50% off** · Pro Lifetime (one-time purchase) ~~$39.99~~ $19.99 · US price; local prices vary; not discounted in mainland China. In-app purchase, no code needed · until Nov 30 |
+| [Textmock](https://textmock.com/pricing) | macOS | Make iMessage-style conversation mockups on the web or Mac and save them as images or videos. | **50% off the first year** · code **TEXTMOCKBF26** · Pro, monthly ~~$5~~ $2.50 · New subscribers; $2.50 a month for your first 12 months. Pro removes the badge and end card from exports · until Dec 2 |
 | [Zipic](https://zipic.app/black-friday?utm_source=boltai&utm_medium=deal-site&utm_campaign=bf2026) | macOS | Compress, convert and resize whole folders of images locally, incl. AVIF, WebP and JPEG XL, with a JSON-output CLI for scripts and AI agents. | **33% off** · code **BF2026** · Solo (1 device) ~~$19.99~~ $13.39 · Personal (2 devices) ~~$29.99~~ $20.09 · Team (10 devices) ~~$129.99~~ $87.09 · One-time purchase, lifetime updates. The same license also works on Windows. 30-day refund · until Dec 6 |
 
 ### Audio and Video
@@ -151,6 +153,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | [SmoothCapture](https://www.smoothcapture.app/pricing) | macOS | SmoothCapture turns screen recordings into polished app demo videos: auto zoom, a smooth cursor and real 3D iPhone, iPad and Mac models. | **50% off** · code **BLACKFRIDAY26** · Personal ~~$79~~ $39.50 · Lifetime ~~$149~~ $74.50 · Chronoid + SmoothCapture bundle ~~$199~~ $99.50 · Code applied automatically from the pricing page. One-time purchase · until Dec 2 |
 | [SmoothCut](https://smoothcut.studio/pricing) | macOS | Screen recorder that auto-zooms on your clicks, smooths the cursor and adds a camera bubble and on-device captions. Also on Windows. | **40% off** · code **BLACKFRIDAY40** · Personal ~~$79~~ $47.40 · Pro ~~$169~~ $101.40 · Applied automatically at checkout. One-time purchase, free to use with 720p exports and a small mark · until Dec 1 |
 | [Transcrybe - Live Translation](https://transcrybe.app/) | macOS | Live translated subtitles for audio from your microphone or any Mac app. | **50% off** · Lifetime access, a one-time purchase. Automatic; no code needed. Mac App Store and direct website · until Dec 2 |
+| [Yaptake](https://yaptake.com/#pricing) | macOS | Video editor for Mac that works like a document: delete words in the transcript to cut them from the video, tighten pauses and burn in captions. | **50% off the first year** · code **YAPTAKEBF26** · New subscribers: Monthly is $4.99 a month for your first 12 months, Yearly is $39.50 for the first year. Your first three exports are free · until Dec 2 |
 
 ### Utilities and Menu Bar
 
@@ -193,6 +196,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | [Pangalin Space Manager](https://pangalin.com/buy/space-manager/) | macOS | Mac storage manager: moves big folders to an external drive with working shortcuts, merges duplicates, clears chat media by month. | **30% off first year** · code **BLACKFRIDAY** · Yearly (first year) ~~$25~~ $17.50 · Code applied automatically from pangalin.com; then $25/year. Free to scan, first 5 GB freed free. 14-day refund. Apple silicon, macOS 13+ · until Nov 30 |
 | [PeakHour](https://peakhour.app) | macOS | Real-time network, Wi-Fi and bandwidth monitor for the Mac menu bar. | **30% off** · Lifetime ~~$49.99~~ $34.99 · Automatically applied; lifetime purchase on the Mac App Store, $49.99 → $34.99; 2026-11-27 to 2026-12-01 · until Dec 1 |
 | [Picmal](https://picmal.app) | macOS | Convert, compress, and edit images, video, audio, and PDFs locally on Mac. | **50% off ($29 → $14.50)** · code **BLACKFRIDAY** · License ~~$29~~ $14.50 · BLACKFRIDAY; one-time purchase; 2026-11-23 to 2026-11-30 (Pacific time) · until Nov 30 |
+| [Pixel Pet Alarm](https://apps.apple.com/redeem?ctx=offercodes&id=6829358606&code=PIXELPETBF40) | iOS | An iPhone alarm clock with animal and nature sounds, custom recordings, and a free daily egg that hatches a pixel companion. Requires iOS 26. | **40% off Lifetime (US)** · code **PIXELPETBF40** · Lifetime Membership ~~$5.90~~ $3.49 · One-time in-app purchase. Redeem through Apple. US price shown; local prices vary. Ends Nov 30 at 12:00 a.m. PT · until Nov 30 |
 | [QRGenie](https://qrgenie.app/black-friday) | macOS, iOS, iPadOS | QR code generator for iPhone, iPad and Mac. Codes are made on your device and never expire. Export PNG, JPG, PDF or SVG with no watermark | **50% off lifetime: $9.99** · Lifetime ~~$19.99~~ $9.99 · You don't need a code. The sale price shows on the upgrade screen in the app · until Dec 4 |
 | [Quick Exposé 3](https://noteifyapp.com/quick-expose/) | macOS | Classic Exposé on modern macOS. | **30% off ($39.99 → $27.99)** · code **MACPLUSBLACKFRIDAY26** · License ~~$39.99~~ $27.99 · MACPLUSBLACKFRIDAY26; 2026-11-01 to 2026-11-30 · until Nov 30 |
 | [Scribbble](https://www.scribbble.app) | macOS | Draw and annotate anywhere on your Mac screen: pen, arrows, highlighter, spotlight, magnify and whiteboard. | **35% off** · code **BFCMSCRIB** · One-time license ~~$12~~ $7.80 · One-time purchase with lifetime updates, direct purchase from the website · until Dec 2 |
@@ -228,6 +232,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
 | [SubManager](https://submanager.app) | macOS, iOS, visionOS | Track subscriptions across iOS, macOS and visionOS and never miss a renewal. | **50% off** · Discount available from Nov 27 to Nov 30. During the discount period go to Settings -> SubManager+ to purchase · until Nov 30 |
+| [WallyLedger](https://apps.apple.com/app/id6761266092) | macOS, iOS, iPadOS | Private budgeting for Mac, iPhone and iPad with no account: syncs through your own iCloud. Multi-currency, monthly budgets, credit card statements. | **Lifetime ~~$99.99~~ $59.99** · Lifetime only; Monthly and Annual not on sale; free plan stays free. In-app, no code. US price, local prices vary · until Dec 1 |
 | [Wealthfolio Connect](https://wealthfolio.app/connect/black-friday/) | macOS, iOS | Encrypted device sync and backups for Wealthfolio; Essentials and Duo add automatic imports from supported brokerages | **35% off first year (annual)** · code **BLACKFRIDAY35** · Nov 8–30, 2026. Annual Basic, Essentials and Duo; first year only; renewals at regular price. Ends Nov 30 at 11:59 p.m. Eastern · until Nov 30 |
 
 ### Education

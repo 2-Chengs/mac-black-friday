@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T05:10:34.966Z",
+  "updatedAt": "2026-11-19T11:27:58.197Z",
   "categories": [
     {
       "id": "ai",
@@ -56,6 +56,10 @@
     {
       "id": "other",
       "name": "Other"
+    },
+    {
+      "id": "launch",
+      "name": "Launch Deals"
     }
   ],
   "deals": [
@@ -2365,6 +2369,30 @@
       "terms": "BLACKFRIDAY; one-time purchase; 2026-11-23 to 2026-11-30 (Pacific time)"
     },
     {
+      "id": "pixel-pet-alarm",
+      "name": "Pixel Pet Alarm",
+      "url": "https://apps.apple.com/redeem?ctx=offercodes&id=6829358606&code=PIXELPETBF40",
+      "platforms": [
+        "iOS"
+      ],
+      "category": "utilities",
+      "discount": "40% off Lifetime (US)",
+      "description": "An iPhone alarm clock with animal and nature sounds, custom recordings, and a free daily egg that hatches a pixel companion. Requires iOS 26.",
+      "code": "PIXELPETBF40",
+      "prices": [
+        {
+          "plan": "Lifetime Membership",
+          "before": 5.9,
+          "after": 3.49
+        }
+      ],
+      "starts": "2026-11-18",
+      "ends": "2026-11-30",
+      "terms": "One-time in-app purchase. Redeem through Apple. US price shown; local prices vary. Ends Nov 30 at 12:00 a.m. PT.",
+      "makerUrl": "https://x.com/zhaozed1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/7d/32/ba7d32af-28cd-eda6-3a51-4ffb70b16582/AppIcon-1x_U007ephone-0-3-P3-85-220-0.png/512x512bb.jpg"
+    },
+    {
       "id": "presentify",
       "name": "Presentify",
       "url": "https://presentifyapp.com",
@@ -3009,6 +3037,30 @@
       "terms": "Automatically applied at checkout; one-time license for up to 3 Macs; 2026-11-27 to 2026-12-01 (Pacific time)"
     },
     {
+      "id": "sponge",
+      "name": "Sponge",
+      "url": "https://sponge.computer/pricing",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "category": "reading",
+      "description": "Local-first read-later library: save articles and PDFs, highlight them and export Markdown. Plus syncs your library to the web and iPhone.",
+      "discount": "50% off the first year",
+      "code": "SPONGEBF26",
+      "prices": [
+        {
+          "plan": "Sponge Plus, monthly",
+          "before": 5,
+          "after": 2.5
+        }
+      ],
+      "terms": "Buy Sponge Plus on the web with the code at checkout. New subscribers; $2.50 a month for your first 12 months.",
+      "starts": "2026-11-18",
+      "ends": "2026-12-02",
+      "maker": "Hraness"
+    },
+    {
       "id": "steps-and-beasts",
       "name": "Steps & Beasts",
       "url": "https://stepsandbeasts.app/black-friday",
@@ -3195,6 +3247,29 @@
       "ends": "2026-12-03",
       "starts": "2026-11-16",
       "terms": "BF2026; 2026-11-16 to 2026-12-03"
+    },
+    {
+      "id": "textmock",
+      "name": "Textmock",
+      "url": "https://textmock.com/pricing",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "design",
+      "description": "Make iMessage-style conversation mockups on the web or Mac and save them as images or videos.",
+      "discount": "50% off the first year",
+      "code": "TEXTMOCKBF26",
+      "prices": [
+        {
+          "plan": "Pro, monthly",
+          "before": 5,
+          "after": 2.5
+        }
+      ],
+      "terms": "New subscribers; $2.50 a month for your first 12 months. Pro removes the badge and end card from exports.",
+      "starts": "2026-11-18",
+      "ends": "2026-12-02",
+      "maker": "Hraness"
     },
     {
       "id": "timego-clock",
@@ -3440,6 +3515,32 @@
       "icon": "https://tryvoiceink.com/icons/appIcon-1024.png"
     },
     {
+      "id": "wallyledger",
+      "name": "WallyLedger",
+      "url": "https://apps.apple.com/app/id6761266092",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS"
+      ],
+      "category": "finance",
+      "description": "Private budgeting for Mac, iPhone and iPad with no account: syncs through your own iCloud. Multi-currency, monthly budgets, credit card statements.",
+      "discount": "Lifetime $59.99",
+      "prices": [
+        {
+          "plan": "Lifetime",
+          "before": 99.99,
+          "after": 59.99
+        }
+      ],
+      "terms": "Lifetime only; Monthly and Annual not on sale; free plan stays free. In-app, no code. US price, local prices vary.",
+      "starts": "2026-11-23",
+      "ends": "2026-12-01",
+      "maker": "Henri La",
+      "makerUrl": "https://www.wallyledger.com",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/54/c3/9054c395-068d-26d8-cc21-68e2059d1203/AppIcon-0-0-1x_U007epad-0-3-P3-85-220.png/512x512bb.jpg"
+    },
+    {
       "id": "wavy-road",
       "name": "Wavy Road",
       "url": "https://apps.apple.com/dk/app/wavy-road-endless-driving/id6804942333",
@@ -3578,6 +3679,22 @@
       "maker": "Narendra Mandadapu",
       "makerUrl": "https://wishbar.app",
       "icon": "https://wishbar.app/wishbar-logo.png"
+    },
+    {
+      "id": "yaptake",
+      "name": "Yaptake",
+      "url": "https://yaptake.com/#pricing",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "audio-video",
+      "description": "Video editor for Mac that works like a document: delete words in the transcript to cut them from the video, tighten pauses and burn in captions.",
+      "discount": "50% off the first year",
+      "code": "YAPTAKEBF26",
+      "terms": "New subscribers: Monthly is $4.99 a month for your first 12 months, Yearly is $39.50 for the first year. Your first three exports are free.",
+      "starts": "2026-11-18",
+      "ends": "2026-12-02",
+      "maker": "Hraness"
     },
     {
       "id": "zipic",

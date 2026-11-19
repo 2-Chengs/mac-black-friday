@@ -17,7 +17,11 @@ writeFileSync(distPath, JSON.stringify({ updatedAt, categories, deals }, null, 2
 const money = (n) => `$${Number.isInteger(n) ? n : n.toFixed(2)}`
 const cell = (text) => String(text).replace(/\|/g, '\\|').replace(/\n/g, ' ')
 function offer(deal) {
-  const price = (p) => `${p.plan} ${p.before ? `~~${money(p.before)}~~ ` : ''}${money(p.after)}`
+  // Launch Deals show the regular price next to the launch price instead of striking it through.
+  const price = (p) =>
+    deal.category === 'launch'
+      ? `${p.plan} ${money(p.after)}${p.before ? ` (regular ${money(p.before)})` : ''}`
+      : `${p.plan} ${p.before ? `~~${money(p.before)}~~ ` : ''}${money(p.after)}`
   // When the headline is one of the prices ("Lifetime $149"), show that price once, struck through if it has one.
   const same = (deal.prices || []).find((p) => `${p.plan} ${money(p.after)}`.toLowerCase() === deal.discount.toLowerCase())
   const parts = [`**${same ? price(same) : deal.discount}**`]
