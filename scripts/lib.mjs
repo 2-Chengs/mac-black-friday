@@ -59,6 +59,9 @@ export function validateDeal(file, deal, categoryIds) {
   if (typeof deal.description === 'string' && deal.description.length > 160) errors.push('"description" is longer than 160 characters')
   if (typeof deal.discount === 'string' && deal.discount.length > 30) errors.push('"discount" is longer than 30 characters')
   if (typeof deal.terms === 'string' && deal.terms.length > 160) errors.push('"terms" is longer than 160 characters')
+  // Launch Deals: the regular price is too new for a markdown, so no percentage in the headline.
+  if (deal.category === 'launch' && typeof deal.discount === 'string' && deal.discount.includes('%'))
+    errors.push('Launch Deals: "discount" shows the launch price (like "Launch price $9.99"), not a percentage')
   if (deal.featured !== undefined && typeof deal.featured !== 'boolean') errors.push('"featured" must be true or false')
 
   if (deal.prices !== undefined) {
