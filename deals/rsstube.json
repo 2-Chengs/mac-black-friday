@@ -5,9 +5,9 @@
     "iOS",
     "iPadOS"
   ],
-  "category": "audio-video",
+  "category": "launch",
   "description": "Follow YouTube channels by RSS: only the channels you chose, newest first, with no algorithm, no account and no tracking.",
-  "discount": "64% off Lifetime",
+  "discount": "Launch price $8.99",
   "prices": [
     {
       "plan": "Premium Lifetime",
