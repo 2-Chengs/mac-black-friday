@@ -257,4 +257,10 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 | [Jubs](https://www.tryjubs.com/black-friday) | iOS | Animated holiday widgets for your iPhone Home Screen and StandBy. | **Premium $2.99 to $1.99** · Premium (one-time) ~~$2.99~~ $1.99 · Free to download. The US sale price applies to the one-time Premium upgrade in the app. No code needed · until Nov 30 |
 | [Lift](https://haaaaaaappy-black-friday-2026.sleek-ghost-5356.chatgpt.site/lift) | iOS | A Christian prayer companion for personal prayers, Scripture and daily reflection. | **60% off first annual year** · code **BF2026LIFT** · Annual (first year) ~~$39.99~~ $16 · Web purchase only; no active subscription; no trial. Use the same email in app. Renews $39.99/year. Ends Nov 30, 21:00 UTC · until Nov 30 |
 
+### Launch Deals
+
+| App | Platforms | What it does | Deal |
+| --- | --- | --- | --- |
+| [RSSTube](https://apps.apple.com/app/apple-store/id6828141995?pt=119343303&ct=bf26-boltai&mt=8) | iOS, iPadOS | Follow YouTube channels by RSS: only the channels you chose, newest first, with no algorithm, no account and no tracking. | **Launch price $8.99** · Premium Lifetime $8.99 (regular $24.99) · One-time purchase. The App Store price drops automatically, no code. Free with up to five channels · until Dec 1 |
+
 <!-- deals:end -->
