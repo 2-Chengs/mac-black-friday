@@ -1,6 +1,6 @@
 # Rules
 
-Curated. Deals that don't fit are closed.
+A personal, curated list. Deals that don't fit are closed.
 
 - Apps for Mac, iPhone, iPad, Apple Vision Pro or Apple Watch only. Finished and maintained.
 - A real Black Friday deal on your own app, with the price and the dates. Starting in November, ending between Nov 20 and Dec 15.
@@ -16,3 +16,4 @@ Curated. Deals that don't fit are closed.
 - Deals that need a follow, like, subscribe or email to get the code
 - Hidden prices, or prices you only see after signing up
 - Courses, books, templates, boilerplates, themes and plugins
+- Brand-new apps without a track record, or apps that aren't signed and notarized

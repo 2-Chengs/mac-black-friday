@@ -2,7 +2,7 @@
 
 Hand-picked Black Friday deals on Mac, iPhone and iPad apps from indie developers.
 
-- ✅ Every deal is checked by me, [Daniel Nguyen](https://x.com/daniel_nguyenx). Real discounts on finished apps only.
+- ✅ A personal, curated list: I check every deal myself, [Daniel Nguyen](https://x.com/daniel_nguyenx), and pick only polished, established apps. No half-finished, vibe-coded or AI-slop apps.
 - 🍎 Mac and iOS apps only. I build native Mac and iOS apps myself, so I can judge an app's quality.
 - 📣 My favorite indie deals get shared with my 77k followers on X.
 
