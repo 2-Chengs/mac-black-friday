@@ -4,7 +4,7 @@
   "platforms": ["macOS"],
   "category": "launch",
   "description": "A Markdown editor for Mac you can ask for anything. AI changes come as proposals you keep or undo, using the AI you already have.",
-  "discount": "Black Friday $9.99",
+  "discount": "Launch price $9.99",
   "prices": [{ "plan": "One-time, up to 3 Macs", "before": 14.99, "after": 9.99 }],
   "starts": "2026-11-20",
   "ends": "2026-11-30",
