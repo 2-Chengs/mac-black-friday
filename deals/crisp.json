@@ -4,17 +4,11 @@
   "platforms": [
     "macOS"
   ],
-  "category": "audio-video",
+  "category": "launch",
   "description": "Offline video and photo upscaler and restorer for Mac (Apple silicon, macOS 14+) and Windows 10/11.",
-  "discount": "31% off",
-  "prices": [
-    {
-      "plan": "License",
-      "before": 14.5,
-      "after": 9.99
-    }
-  ],
+  "discount": "Launch price $9.99",
   "ends": "2026-12-02",
   "starts": "2026-11-13",
-  "terms": "No code needed: the Buy button applies the sale. Pay once, 30-day refund. Free AI exports stop at 15 seconds, with a small mark. Ends 2 Dec 2026, US Pacific."
+  "terms": "Launch price $9.99 through 2 Dec, then $29 from 3 Dec. No code: the Buy button applies it. Pay once, 30-day refund. Free AI exports stop at 15 seconds.",
+  "maker": "Matthew Kerr"
 }
