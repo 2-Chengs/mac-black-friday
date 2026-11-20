@@ -1,0 +1,15 @@
+{
+  "name": "SideNotes Mobile",
+  "url": "https://www.apptorium.com/sidenotes-mobile",
+  "platforms": ["iOS", "iPadOS"],
+  "category": "writing",
+  "description": "Quick, organized notes for iPhone and iPad, with Markdown, folders, pinning, folding and iCloud sync with Mac.",
+  "discount": "40% off",
+  "prices": [{ "plan": "One-time", "before": 9.99, "after": 5.99 }],
+  "terms": "One-time purchase per major version. No code needed.",
+  "starts": "2026-11-20",
+  "ends": "2026-12-06",
+  "maker": "Apptorium",
+  "makerUrl": "https://www.apptorium.com",
+  "icon": "https://www.apptorium.com/shared/sidenotes-mobile.png"
+}

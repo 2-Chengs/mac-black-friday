@@ -1,0 +1,15 @@
+{
+  "name": "FiveNotes Mobile",
+  "url": "https://www.apptorium.com/fivenotes/mobile",
+  "platforms": ["iOS", "iPadOS", "watchOS"],
+  "category": "writing",
+  "description": "Five focused notes on iPhone, iPad and Apple Watch, with Markdown, themes, backups, Shortcuts and iCloud sync.",
+  "discount": "25% off",
+  "prices": [{ "plan": "One-time", "before": 3.99, "after": 2.99 }],
+  "terms": "One-time purchase per major version. No code needed.",
+  "starts": "2026-11-20",
+  "ends": "2026-12-06",
+  "maker": "Apptorium",
+  "makerUrl": "https://www.apptorium.com",
+  "icon": "https://www.apptorium.com/shared/fivenotes-mobile.png"
+}
