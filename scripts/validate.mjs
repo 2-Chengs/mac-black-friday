@@ -11,7 +11,7 @@ for (const { file, deal } of deals) {
   const errors = validateDeal(file, deal, categoryIds)
   if (deal.url) {
     const u = new URL(deal.url)
-    const host = u.hostname + u.pathname.replace(/\/$/, '') + u.hash
+    const host = u.hostname + u.pathname.replace(/\/$/, '') + u.hash + (u.searchParams.get('id') ? `?id=${u.searchParams.get('id')}` : '')
     if (seenUrls.has(host)) errors.push(`same link as ${seenUrls.get(host)}: one entry per app`)
     seenUrls.set(host, file)
   }
