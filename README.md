@@ -263,6 +263,7 @@ Hi! I build native Mac and iOS apps and maintain this list. Follow me on [X](htt
 
 | App | Platforms | What it does | Deal |
 | --- | --- | --- | --- |
+| [Glifa](https://glifa.app/?ref=bf-boltai#pricing) | macOS | A Markdown editor for Mac you can ask for anything. AI changes come as proposals you keep or undo, using the AI you already have. | **Launch price $9.99** · One-time, up to 3 Macs $9.99 (regular $14.99) · No code needed. On sale since Nov 14 at $14.99. Buy during the offer, even if your trial runs longer. $19.99 from Dec 1 · until Nov 30 |
 | [RSSTube](https://apps.apple.com/app/apple-store/id6828141995?pt=119343303&ct=bf26-boltai&mt=8) | iOS, iPadOS | Follow YouTube channels by RSS: only the channels you chose, newest first, with no algorithm, no account and no tracking. | **Launch price $8.99** · Premium Lifetime $8.99 (regular $24.99) · One-time purchase. The App Store price drops automatically, no code. Free with up to five channels · until Dec 1 |
 
 <!-- deals:end -->
