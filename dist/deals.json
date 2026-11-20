@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T04:42:56.278Z",
+  "updatedAt": "2026-11-20T04:43:30.478Z",
   "categories": [
     {
       "id": "ai",
@@ -1485,6 +1485,39 @@
       "maker": "Damjan Dabo",
       "makerUrl": "https://www.getitemlist.app/",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/10/35/8e103530-3ffc-f655-2a16-31f7d0c7b062/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "jot",
+      "name": "Jot",
+      "url": "https://sayjot.xyz/#pricing",
+      "platforms": [
+        "macOS"
+      ],
+      "category": "launch",
+      "description": "Local-first notes inbox. Select text, tap Shift twice, and it is a Markdown file in a folder you own. Dictation, reminders, and an MCP server for agents.",
+      "discount": "Launch price $9",
+      "prices": [
+        {
+          "plan": "1 Mac, lifetime",
+          "before": 29,
+          "after": 9
+        },
+        {
+          "plan": "3 Macs, lifetime",
+          "before": 87,
+          "after": 24
+        },
+        {
+          "plan": "10 Macs, lifetime",
+          "before": 290,
+          "after": 69
+        }
+      ],
+      "terms": "No code; applied at checkout. One-time purchase, 3-day free trial. Signed and notarized.",
+      "starts": "2026-11-20",
+      "ends": "2026-12-01",
+      "maker": "Mohak Bajaj",
+      "makerUrl": "https://x.com/MohakBajaj5"
     },
     {
       "id": "jubs",
