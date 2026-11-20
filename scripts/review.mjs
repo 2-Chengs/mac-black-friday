@@ -65,15 +65,56 @@ async function checkOfferCodeLink(deal, link) {
   }
 }
 
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+
+/** The page's visible text after JavaScript has run, from a headless browser. Returns null when no browser is
+ *  installed or it fails, so the caller falls back to a plain fetch. The browser only runs in the workflow's
+ *  read-only job, never next to the token that can comment. */
+let browserPromise
+async function renderedText(url) {
+  try {
+    browserPromise ??= import('playwright').then((pw) => pw.chromium.launch())
+    const browser = await browserPromise
+    const page = await browser.newPage({ userAgent: UA, locale: 'en-US' })
+    try {
+      const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 })
+      if (response && !response.ok()) return { status: response.status() }
+      await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {})
+      return { text: await page.evaluate(() => document.body?.innerText || '') }
+    } finally {
+      await page.close()
+    }
+  } catch {
+    return null
+  }
+}
+
+async function closeBrowser() {
+  if (browserPromise) await (await browserPromise.catch(() => null))?.close().catch(() => {})
+}
+
 async function checkPage(deal) {
   try {
-    const response = await fetch(deal.url, {
-      redirect: 'follow',
-      signal: AbortSignal.timeout(15000),
-      headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) mac-black-friday-review' },
-    })
-    if (!response.ok) return { reachable: false, note: `the page answered ${response.status}` }
-    const text = (await response.text()).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').toLowerCase()
+    // Both the rendered page (text drawn by JavaScript) and the raw HTML (text the page keeps collapsed, like the
+    // App Store's in-app purchase list) count.
+    const rendered = await renderedText(deal.url)
+    let html = ''
+    let status = 0
+    try {
+      const response = await fetch(deal.url, {
+        redirect: 'follow',
+        signal: AbortSignal.timeout(15000),
+        headers: { 'User-Agent': UA },
+      })
+      status = response.status
+      if (response.ok) html = (await response.text()).replace(/<[^>]+>/g, ' ')
+    } catch {}
+    if (!rendered?.text && !html) {
+      const code = rendered?.status || status
+      return { reachable: false, note: code ? `the page answered ${code}` : 'the page could not be opened' }
+    }
+    const raw = `${rendered?.text || ''} ${html}`
+    const text = raw.replace(/\s+/g, ' ').toLowerCase()
     const sale = /black ?friday|cyber ?monday|bfcm|holiday sale/.test(text)
     const prices = (deal.prices || []).map((p) => p.after)
     const priceShown = prices.some((price) => {
@@ -204,14 +245,18 @@ async function main() {
       : `Push a fix to this branch and I'll check again. Here are the [rules](https://github.com/${GITHUB_REPOSITORY}/blob/main/RULES.md).`
   )
   const body = lines.join('\n')
+  const add = (ready ? LABELS.ready : unconfirmed ? LABELS.check : LABELS.changes).name
+  return { body, label: add, passes }
+}
 
+/** Posts the review comment and label. Runs in the workflow's second job, which has write access and no browser. */
+async function post({ body, label: add, passes }) {
   const comments = await gh(`/issues/${PR_NUMBER}/comments?per_page=100`)
   const mine = comments.find((c) => c.body?.startsWith(MARKER))
   if (mine) await gh(`/issues/comments/${mine.id}`, { method: 'PATCH', body: JSON.stringify({ body }) })
   else await gh(`/issues/${PR_NUMBER}/comments`, { method: 'POST', body: JSON.stringify({ body }) })
 
   for (const label of Object.values(LABELS)) await gh('/labels', { method: 'POST', body: JSON.stringify(label) })
-  const add = (ready ? LABELS.ready : unconfirmed ? LABELS.check : LABELS.changes).name
   for (const label of Object.values(LABELS))
     if (label.name !== add) await gh(`/issues/${PR_NUMBER}/labels/${encodeURIComponent(label.name)}`, { method: 'DELETE' })
   await gh(`/issues/${PR_NUMBER}/labels`, { method: 'POST', body: JSON.stringify({ labels: [add] }) })
@@ -222,7 +267,29 @@ async function main() {
   if (!passes) process.exit(1)
 }
 
-main().catch((error) => {
+// REVIEW_STEP=check: review and write the result to the job's outputs (read-only job, may use a browser).
+// REVIEW_STEP=post: read REVIEW_RESULT and comment/label (write job). Unset: both, in one process (local runs).
+// DRY_RUN=1 prints the review without posting.
+async function run() {
+  const step = process.env.REVIEW_STEP
+  if (step === 'post' && !process.env.REVIEW_RESULT) return console.log('Nothing to post.')
+  if (step === 'post') return post(JSON.parse(Buffer.from(process.env.REVIEW_RESULT || '', 'base64').toString('utf8')))
+  const result = await main()
+  await closeBrowser()
+  if (step === 'check') {
+    const { appendFileSync } = await import('node:fs')
+    appendFileSync(process.env.GITHUB_OUTPUT, `result=${Buffer.from(JSON.stringify(result)).toString('base64')}\n`)
+    console.log(result.body)
+    return
+  }
+  if (process.env.DRY_RUN) {
+    console.log(`[${result.label}]\n${result.body}`)
+    return
+  }
+  return post(result)
+}
+
+run().catch((error) => {
   console.error(error)
   process.exit(1)
 })
